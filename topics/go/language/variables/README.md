@@ -18,6 +18,7 @@ Variables are at the heart of the language and provide the ability to read from 
 [Variables](https://golang.org/doc/effective_go.html#variables)    
 [Gustavo's IEEE-754 Brain Teaser](https://www.ardanlabs.com/blog/2013/08/gustavos-ieee-754-brain-teaser.html) - William Kennedy    
 [Binary Fractions](https://www.electronics-tutorials.ws/binary/binary-fractions.html)    
+[ASCII Table](https://en.wikipedia.org/wiki/ASCII) - see `Gustavo's IEEE-754 Brain Teaser` if bit == 49    
 [What's in a name](https://www.youtube.com/watch?v=sFUSP8Au_PE)    
 [A brief history of “type”](http://arcanesentiment.blogspot.com/2015/01/a-brief-history-of-type.html) - Arcane Sentiment    
 
