@@ -36,5 +36,10 @@ Variables are at the heart of the language and provide the ability to read from 
 
 [Template](exercises/template1/template1.go) ([Go Playground](https://play.golang.org/p/mQiNGaMaiAa)) | 
 [Answer](exercises/exercise1/exercise1.go) ([Go Playground](https://play.golang.org/p/Ygxt9kW_WAV))
+
+## Links
+
+[Conversions in go](https://medium.com/golangspec/conversions-in-go-4301e8d84067)
+
 ___
 All material is licensed under the [Apache License Version 2.0, January 2004](http://www.apache.org/licenses/LICENSE-2.0).
