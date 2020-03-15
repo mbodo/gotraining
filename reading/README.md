@@ -9,6 +9,7 @@ There is a ton of links to extra reading and videos through out the material. Oc
 [The Go Programming Language](https://www.gopl.io/) - Alan Donovan, Brian Kernighan  
 [Go Programming Blueprints](https://github.com/matryer/goblueprints) - Mat Ryer  
 [Mastering Go](https://www.packtpub.com/eu/programming/mastering-go-second-edition) - Mihalis Tsoukalos  
+[Head First Go](http://shop.oreilly.com/product/0636920054931.do) - Jay McGavren  
 
 ### Blogs
 
@@ -17,7 +18,8 @@ There is a ton of links to extra reading and videos through out the material. Oc
 [The Go Blog](https://blog.golang.org) - Language Team  
 [Ukiah Smith](https://ukiahsmith.com) - Ukiah Smith  
 [Mechanical Sympathy](https://mechanical-sympathy.blogspot.com) - Martin Thompson  
-[Go Documentation References](https://golang.org/doc/#references) - Language Team
+[Go Documentation References](https://golang.org/doc/#references) - Language Team  
+[Vincent Blanchon](https://medium.com/@blanchon.vincent) - Vincent Blanchon  
 
 ### Interviews
 
@@ -125,6 +127,7 @@ There is a ton of links to extra reading and videos through out the material. Oc
 [You wanted a banana but you got a gorilla holding the banana](http://www.johndcook.com/blog/2011/07/19/you-wanted-banana) - John D. Cook  
 [Focus On Being Precise](https://www.ardanlabs.com/blog/2018/02/focus-on-being-precise.html) - William Kennedy  
 [Design, Composition and Performance](https://www.infoq.com/presentations/Design-Composition-Performance) - Rich Hickey  
+[Things That Matter](https://www.youtube.com/watch?v=RT46MpK39rQ) - Scott Meyers  
 
 ### Error Handling
 
@@ -158,6 +161,7 @@ There is a ton of links to extra reading and videos through out the material. Oc
 [The Behavior Of Channels](https://www.ardanlabs.com/blog/2017/10/the-behavior-of-channels.html) - William Kennedy  
 [Scheduling In Go - Part I](https://www.ardanlabs.com/blog/2018/08/scheduling-in-go-part1.html) - William Kennedy  
 [Scheduling In Go - Part II](https://www.ardanlabs.com/blog/2018/08/scheduling-in-go-part2.html) - William Kennedy  
+[Go advanced concurrency patterns: part 3 (channels)](https://blogtitle.github.io/go-advanced-concurrency-patterns-part-3-channels/) - Roberto Clapis  
 
 ### Buffer Bloat - 2011
 
@@ -188,6 +192,7 @@ There is a ton of links to extra reading and videos through out the material. Oc
 [The Queen Does Not Rule](https://aeon.co/essays/how-ant-societies-point-to-radical-possibilities-for-humans) - Deborah M Gordon  
 [Load Balancing is Impossible](https://www.youtube.com/watch?v=kpvbOzHUakA) - Tyler McMullen  
 [Dapper: Distributed Tracing](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/36356.pdf) - Google  
+[Authentication in Distributed Systems: Theory and Practice](https://www.microsoft.com/en-us/research/publication/authentication-in-distributed-systems-theory-and-practice/) - Microsoft  
 
 ### HTTP and Timeouts
 
@@ -240,11 +245,12 @@ There is a ton of links to extra reading and videos through out the material. Oc
 [Secrecy, Authentication, and Public Key Systems](http://www.merkle.com/papers/Thesis1979.pdf) - Ralph Merkle  
 [Tales From The Lunar Module Guidance Computer](https://www.doneyles.com/LM/Tales.html) - Don Eyles  
 [Is Self-Orientation Killing Your Trustworthiness](https://trustedadvisor.com/trustmatters/is-self-orientation-killing-your-trustworthiness) - Charles H. Green  
+[Speed Is Found In The Minds of People](https://www.youtube.com/watch?v=FJJTYQYB1JQ) - Andrei Alexandrescu  
 
 ### Must Read
 
 [PRinty# C with ABC](http://www.cs.cmu.edu/~tom7/abc/paper.pdf) - Dr. Tom Murphy VII, Ph.D  
-
+[I coached 101 CEOs, founders, VCs and other executives in 2019: These are the biggest takeaways](https://leowid.com/2019-2) - Leo Widrich  
 
 ### Go 2
 
@@ -278,6 +284,7 @@ Much of this content can be found under [arrays](../topics/go/language/arrays) a
 
 #### Data-Oriented Design
 
+[Building a Data-Oriented Future](https://www.youtube.com/watch?v=u8B3j8rqYMw) - Mike Acton  
 [Data-Oriented Design and C++](https://www.youtube.com/watch?v=rX0ItVEVjHc) - Mike Acton  
 [Efficiency with Algorithms, Performance with Data Structures](https://www.youtube.com/watch?v=fHNmRkzxHWs) - Chandler Carruth  
 [Taming the performance Beast](https://www.youtube.com/watch?v=LrVi9LHP8Bk) - Klaus Iglberger  
@@ -297,17 +304,23 @@ Much of this content can be found under [arrays](../topics/go/language/arrays) a
 
 This content can be found under [pointers](../topics/go/language/pointers). We feel this content is so important it has been moved out to this general materials page.
 
+#### Linker
+[Building a better Go linker](https://docs.google.com/document/d/1D13QhciikbdLtaI67U6Ble5d_1nsI4befEd6_k1z91U/edit) - Austin Clements  
+
 #### Stacks
 
 [Contiguous Stack Proposal](https://docs.google.com/document/d/1wAaf1rYoM4S4gtnPh0zOlGzWtrZFQ5suE8qr2sD8uWQ/pub)  
 [Fix corruption crash/race between select and stack growth](https://github.com/golang/go/commit/b902a63ade47cf69218c9b38c9a783fc8cfc3041) - Russ Cox  
+[Defer Proposal](https://go.googlesource.com/proposal/+/refs/heads/master/design/34481-opencoded-defers.md) - Go Team  
 
 #### Scheduler
 
+[Go scheduler: Implementing language with lightweight concurrency](https://www.youtube.com/watch?v=-K11rY57K7k) - Dmitry Vyukov  
 [How does the golang scheduler work?](https://www.quora.com/How-does-the-golang-scheduler-work/answer/Ian-Lance-Taylor) - Ian Lance Taylor  
 [Explanation of the Scheduler](https://news.ycombinator.com/item?id=12460807)  
 [proposal: runtime: non-cooperative goroutine preemption](https://github.com/golang/go/issues/24543) - Austin Clements  
 [Go scheduler: Implementing language with lightweight concurrency](https://www.youtube.com/watch?v=-K11rY57K7k&app=desktop) - Dmitry Vyukov  
+[Work-Stealing in Go Scheduler](https://medium.com/a-journey-with-go/go-work-stealing-in-go-scheduler-d439231be64d?) - Vincent Blanchon  
 
 #### Escape Analysis and Inlining
 
@@ -340,6 +353,7 @@ https://godoc.org/golang.org/x/tools/go/ssa
 [Runtime Hacking](https://github.com/golang/go/blob/master/src/runtime/HACKING.md)  
 [Timer implementation](https://github.com/golang/go/issues/25471#issuecomment-391906366) - Ian Lance Taylor  
 [The Go low-level calling convention on x86-64](https://science.raphael.poss.name/go-calling-convention-x86-64.html) - Raphael ‘kena’ Poss  
+[Memory Management](http://virtuallyrandom.com/memory-management-an-introduction/) - Unknown  
 
 ## Hardware
 
@@ -354,6 +368,7 @@ https://godoc.org/golang.org/x/tools/go/ssa
 
 [Open issues for the upcoming release](https://dev.golang.org/release)
 
+[Go 1.14 Release Notes](https://golang.org/doc/go1.14) - 2020/02/26  
 [Go 1.13 Release Notes](https://golang.org/doc/go1.13) - 2019/09/03  
 [Go 1.12 Release Notes](https://golang.org/doc/go1.12) - 2019/02/25  
 [Go 1.11 Release Notes](https://golang.org/doc/go1.11) - 2018/08/24  
