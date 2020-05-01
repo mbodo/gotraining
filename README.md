@@ -137,28 +137,43 @@ If you are interested in holding an event in your area please let me know. We wi
 ### 2020
 
 **Bill Kennedy**  
+
+**Open Classes**  
 ```
-Date                Location              Venue               Type         Type             Url
-================================================================================================================================================
-January(14-16)      Carpinteria, CA       Procore             Corporate    Go (3 day)
-January(27-29)      Charlotte, NC         Red Ventures        Open Class   Go (3 day)       https://www.eventbrite.com/e/3-day-ultimate-go-training-charlotte-nc-usa-january-2020-tickets-80562000111
-February(11-13)     San Jose, CA          Paypal              Corporate    Go (3 day)
-February(25-27)     Tel Aviv, Israel      Zip Recruiter       Corporate    Go (3 day)
-March(03-05)        Athens, Greece        Inaccess            Open Class   Go (3 day)       https://www.eventbrite.com/e/3-day-ultimate-go-training-athens-greece-march-3-4-5-2020-tickets-91179960717
-March(09-12)        Boulder, CO           Hello Fresh         Corporate    Go (3 day)
-March(17-19)        Miami, FL             GE Digital          Corporate    Go (3 day)
-April(07-09)        NYC, NY               New York Times      Corporate    Go (3 day)
-April(22-26)        Berlin, Germany       GopherCon EU        Conference   Service (1 day)  https://gophercon.berlin
-May(05-07)          Seattle, WA           Outreach            Corporate    Go (3 day)
-June(22)            Orlando, FL           TBD / GopherCon     Open Class   Service (1 day)  Link Comming Soon
-June(30-02)         Amsterdam, NL         Message Bird        Open Class   Go (3 day)       https://www.eventbrite.com/e/3-day-ultimate-go-training-amsterdam-june-30-2020-july-2-2020-tickets-93954782283
+Date              Location           Company          Type         Type          Length             URL
+=========================================================================================================================================================================================================================
+April(20-24)      Virtual            Ardan Labs       Open Class   Go Syntax     5 Days(20 Hours)   https://www.eventbrite.com/e/ardan-labs-livestream-ultimate-go-syntax-april-20-april-24-2020-tickets-101808788828
+May(09)           Virtual            Ardan Labs       Open Class   Go Workshop   1 Days(8 Hours)    Link Coming Soon
+May(11-14)        Virtual            Ardan Labs       Open Class   Go Service    4 Days(16 Hours)   https://www.eventbrite.com/e/ardan-labs-livestream-ultimate-go-service-may-11-may-14-2020-tickets-102102256598
+June(30-02)       Amsterdam, NL      Message Bird     Open Class   Go Advanced   3 Days(24 Hours)   https://www.eventbrite.com/e/3-day-ultimate-go-training-amsterdam-june-30-2020-july-2-2020-tickets-93954782283
+```
+
+**Corporate Classes**  
+```
+Date              Location           Company          Type         Type          Length       
+====================================================================================================
+April(27-01)      Virtual            Derivco          Corporate    Go Advanced   5 Days(20 Hours)
+```
+
+**Completed Classes** 
+```
+Date              Location           Company          Type         Type          Length          
+====================================================================================================
+January(14-16)    Carpinteria, CA    Procore          Corporate    Go Advanced   3 Days(24 Hours)
+January(27-29)    Charlotte, NC      Red Ventures     Open Class   Go Advanced   3 Days(24 Hours)
+February(11-13)   San Jose, CA       Paypal           Corporate    Go Advanced   3 Days(24 Hours)
+February(25-27)   Tel Aviv, Israel   Zip Recruiter    Corporate    Go Advanced   3 Days(24 Hours)
+March(03-05)      Athens, Greece     Inaccess         Open Class   Go Advanced   3 Days(24 Hours)
+March(09-12)      Virtual            Hello Fresh      Corporate    Go Advanced   3 Days(24 Hours)
+March(30-02)      Virtual            Ardan Labs       Open Class   Go Advanced   3 Days(24 Hours)
+April(07-09)      Virtual            New York Times   Corporate    Go Advanced   3 Days(24 Hours)
 ```
 
 ### 2019
 
 **Bill Kennedy**  
 ```
-Date                Location              Venue               Type         Type             Url
+Date                Location              Company             Type         Type             Url
 ================================================================================================================================================
 January(16-19)      Goa, India            GopherCon India     Conference   Adv Go (1 day)   https://gopherconindia.com/go-workshop1/
 January(21-23)      Bangalore, India      Paypal              Corporate    Go (3 day)       

@@ -36,12 +36,12 @@ https://github.com/dvyukov/go-fuzz
 
 ## Code Review
 
-[Basic Unit Test](example1/example1_test.go) ([Go Playground](https://play.golang.org/p/Z3A3BcLJEZO))  
-[Table Unit Test](example2/example2_test.go) ([Go Playground](https://play.golang.org/p/cgs48ATDaL0))  
-[Mocking Web Server Response](example3/example3_test.go) ([Go Playground](https://play.golang.org/p/37Lcogkc6HZ))  
-[Testing Internal Endpoints](example4/handlers/handlers_test.go) ([Go Playground](https://play.golang.org/p/x3dFn-O2ZfW))  
+[Basic Unit Test](example1/example1_test.go) ([Go Playground](https://play.golang.org/p/F7kXmSfr7AE))  
+[Table Unit Test](example2/example2_test.go) ([Go Playground](https://play.golang.org/p/1a2u8omEqrX))  
+[Mocking Web Server Response](example3/example3_test.go) ([Go Playground](https://play.golang.org/p/SILnu117hak))  
+[Testing Internal Endpoints](example4/handlers/handlers_test.go) ([Go Playground](https://play.golang.org/p/CSK7SZEeWf3))  
 [Example Test](example4/handlers/handlers_example_test.go) ([Go Playground](https://play.golang.org/p/rE0DRliZH9t))  
-[Sub Tests](example5/example5_test.go) ([Go Playground](https://play.golang.org/p/UqMvpL11tSx))  
+[Sub Tests](example5/example5_test.go) ([Go Playground](https://play.golang.org/p/TmH1nMDsrvL))  
 
 _Look at the profiling topic to learn more about using test to [profile](../profiling) code._
 
