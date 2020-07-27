@@ -1,0 +1,96 @@
+package main
+
+import "fmt"
+
+// =============================================================================
+
+// This code defines two named types based on a concrete type specified
+// at the point of declaration. Each type implements a method named push
+// that can append values of the specified concrete type into the slice.
+
+type vectorInt []int
+
+func (v vectorInt) push(value int) vectorInt {
+	v = append(v, value)
+	return v
+}
+
+type vectorString []string
+
+func (v vectorString) push(value string) vectorString {
+	v = append(v, value)
+	return v
+}
+
+// =============================================================================
+
+// This named type is based on the empty interface so any value can be pushed
+// into the collection. Since the append function is a generic function, this
+// code works well. However, users will need to perform type assertions to get
+// back to the concrete value being stored inside the interface.
+
+type vectorInterface []interface{}
+
+func (v vectorInterface) push(value interface{}) vectorInterface {
+	v = append(v, value)
+	return v
+}
+
+// =============================================================================
+
+// This is a generics version of the named type. It can become a slice of any
+// concrete type provided at the point of construction. The push method also
+// accepts any value of type T determined at compile time. This value needs to
+// match the type used in the construction of the generics type.
+
+type vectorGeneric[type T] []T
+
+func (v vectorGeneric[T]) push(value T) vectorGeneric[T] {
+	v = append(v, value)
+	return v
+}
+
+// =============================================================================
+
+func main() {
+	var vInt vectorInt
+	vInt = vInt.push(10).push(20)
+	for _, d := range vInt {
+		fmt.Printf("Int[%d] ", d)
+	}
+	fmt.Print("\n")
+
+	var vStr vectorString
+	vStr = vStr.push("A").push("B")
+	for _, s := range vStr {
+		fmt.Printf("Str[%s] ", s)
+	}
+	fmt.Print("\n")
+
+	var vItf vectorInterface
+	vItf = vItf.push(10).push("A").push(20).push("B")
+	for _, i := range vItf {
+		switch v := i.(type) {
+		case int:
+			fmt.Printf("Int[%d] ", v)
+		case string:
+			fmt.Printf("Str[%s] ", v)
+		}
+	}
+	fmt.Print("\n")
+
+	var vGenInt vectorGeneric[int]
+	vGenInt = vGenInt.push(10).push(20)
+	for _, d := range vGenInt {
+		fmt.Printf("Int[%d] ", d)
+	}
+	fmt.Print("\n")
+
+	var vGenStr vectorGeneric[string]
+	vGenStr = vGenStr.push("A").push("B")
+	for _, s := range vGenStr {
+		fmt.Printf("Str[%s] ", s)
+	}
+	fmt.Print("\n")
+}
+
