@@ -4,6 +4,8 @@
 	
 	"build": {
 		"args": {
+            "VARIANT": "1",
+            "INSTALL_ZSH": "false",
 			"USERNAME": "bmlynarcik",
 			"USER_ID": "500"
 		}
@@ -23,7 +25,7 @@
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
 		"golang.Go"
-],
+    ],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
