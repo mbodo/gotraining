@@ -60,6 +60,11 @@ There is a ton of links to extra reading and videos through out the material. Oc
 [Go’s History in Code](https://seh.dev/go-legacy/) - Sean Hinchee  
 [A Plea For Lean Software](https://cr.yp.to/bib/1995/wirth.pdf) - Niklaus Wirth  
 
+### Case Studies
+
+[Case Studies](https://go.dev/solutions#case-studies) - Go Team  
+[New Case Studies About Google’s Use of Go](https://opensource.googleblog.com/2020/08/new-case-studies-about-googles-use-of-go.html) - Rob Pike  
+
 ### Contribute to Go
 
 [Contributing to the Go project](https://blog.gopheracademy.com/advent-2016/contributing-to-the-go-project/) - Matt Layher  
@@ -76,7 +81,7 @@ There is a ton of links to extra reading and videos through out the material. Oc
 ### Assembly
 
 [Go Assembly by Example](http://davidwong.fr/goasm/) - David Wong  
-[Quick intro to Go assembly](https://blog.hackercat.ninja/post/quick_intro_to_go_assembly/)  
+[Quick intro to Go assembly](https://blog.hackercat.ninja/2018/quick_intro_to_go_assembly/)  
 [The Go low-level calling convention on x86-64](http://science.raphael.poss.name/go-calling-convention-x86-64.html) - Raphael ‘kena’ Poss  
 
 ### Buffer Bloat - 2011
@@ -116,12 +121,13 @@ There is a ton of links to extra reading and videos through out the material. Oc
 
 ### Generics and Go2
 
-[Sydney Golang Meetup - Rob Pike - Go 2 Draft Specifications](https://www.youtube.com/watch?v=RIvL2ONhFBI) - Rob Pike  
-[Current Design Draft](https://go.googlesource.com/proposal/+/refs/heads/master/design/go2draft-type-parameters) - Go Team  
+[Sydney Golang Meetup - Rob Pike - Go 2 Draft Specifications](https://www.youtube.com/watch?v=RIvL2ONhFBI) - Rob Pike
+[Current Design Draft](https://go.googlesource.com/proposal/+/refs/heads/master/design/go2draft-type-parameters.md) - Go Team  
 [The Next Step for Generics](https://blog.golang.org/generics-next-step) - Go Team  
 [Early notes on the generics proposal](https://rakyll.org/generics-proposal/) - JBD  
 [Generics in Go](https://bitfieldconsulting.com/golang/generics) - John Arundel  
 [Generics Part 01: Basic Syntax](https://www.ardanlabs.com/blog/2020/07/generics-01-basic-syntax.html) - William Kennedy  
+[Generics Part 02: Underlying Types](https://www.ardanlabs.com/blog/2020/08/generics-02-underlying-types.html) - William Kennedy  
 
 ### HTTP
 
@@ -180,6 +186,7 @@ There is a ton of links to extra reading and videos through out the material. Oc
 [Is Self-Orientation Killing Your Trustworthiness](https://trustedadvisor.com/trustmatters/is-self-orientation-killing-your-trustworthiness) - Charles H. Green  
 [Speed Is Found In The Minds of People](https://www.youtube.com/watch?v=FJJTYQYB1JQ) - Andrei Alexandrescu  
 [The Soul of Erlang and Elixir](https://www.youtube.com/watch?v=JvBT4XBdoUE) - Saša Jurić  
+[What Every Computer Scientist Should Know About Floating-Point Arithmetic](https://docs.oracle.com/cd/E19957-01/806-3568/ncg_goldberg.html) - David Goldberg  
  
 ### Modules
 

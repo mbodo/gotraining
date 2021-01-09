@@ -82,11 +82,11 @@ _"There are two kinds of software projects: those that fail, and those that turn
 
 _"Legacy software is an unappreciated but serious problem. Legacy code may be the downfall of our civilization." - Chuck Moore (inventor of Forth)_
 
-_"Few programmers of any experience would contradict the assertion that most programs are modified in their lifetime. Why then do we rarely find a program that contains any evidence of having been written with an eye to subsequent modification. - Gerald M. Weinberg"_
+_"Few programmers of any experience would contradict the assertion that most programs are modified in their lifetime. Why then do we rarely find a program that contains any evidence of having been written with an eye to subsequent modification." - Gerald M. Weinberg_
 
 _"We think awful code is written by awful devs. But in reality, it's written by reasonable devs in awful circumstances." - Sarah Mei_
 
-_"There are many reasons why programs are built the way they are, although we may fail to recognize the multiplicity of reasons because we usually look at code from the outside rather than by reading it. When we do read code, we find that some of it gets written because of machine limitations, some because of language limitations, some because of programmer limitations, some because of historical accidents, and some because of specifications—both essential and inessential. - Gerald M. Weinberg"_
+_"There are many reasons why programs are built the way they are, although we may fail to recognize the multiplicity of reasons because we usually look at code from the outside rather than by reading it. When we do read code, we find that some of it gets written because of machine limitations, some because of language limitations, some because of programmer limitations, some because of historical accidents, and some because of specifications—both essential and inessential." - Gerald M. Weinberg_
 
 ---
 
@@ -202,6 +202,8 @@ _"Mistakes are an inevitable consequence of doing something new and, as such, sh
 _"It takes considerable knowledge just to realize the extent of your own ignorance." - Thomas Sowell_
 
 _"If you don’t make mistakes, you’re not working on hard enough problems." - Frank Wilczek_
+
+_"Don’t cling to a mistake because you spent so much time making it." - Aubrey de Grey_
 
 ---
 
@@ -379,7 +381,7 @@ Micro-Optimizations are about squeezing every ounce of performance as possible. 
 
 ### Data-Oriented Design
 
-"Data dominates. If you've chosen the right data structures and organized things well, the algorithms will almost always be self-evident. Data structures, not algorthims, are central to programming." - Rob Pike
+"Data dominates. If you've chosen the right data structures and organized things well, the algorithms will almost always be self-evident. Data structures, not algorithms, are central to programming." - Rob Pike
 
 **Design Philosophy:**
 
